@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-void print_array(int arr[],int n)
+void printArray(int arr[],int n)
 {
-    for (int i=0;i<n;i++)   {
-        cout<<arr[i]<<"\t";
+    for (int i = 0;i<n;i++) {
+        cout<<arr[i]<<"  ";
     }
     cout<<endl;
 }
@@ -36,16 +36,11 @@ void quick_sort(int arr[],int low,int high)
 
 int main()
 {
-    int arr[] = {60,80,75,77,1,25,15,5,10,22,19,17};
+    int arr[] = {64,25,12,22,11,74,42,12,53,65};
     int n = sizeof(arr)/sizeof(int);
 
-    cout<<"initial array:\t";
-    print_array(arr,n);
-
     quick_sort(arr,0,n-1);
-
-    cout<<"sorted array:\t";
-    print_array(arr,n);
+    printArray(arr,n);
 
     return 0;
 }
