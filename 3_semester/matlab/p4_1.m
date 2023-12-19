@@ -1,4 +1,4 @@
-%P4_1 - Armstrong Number of not using Function
+%P4_1 - Armstrong Number or not using Function
 
 a = input('enter number: ');
 armstrong = armstrong_num(a);
