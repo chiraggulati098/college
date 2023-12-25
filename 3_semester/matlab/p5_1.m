@@ -4,3 +4,4 @@ x = 0:20;
 y = 2*x;
 
 plot(x,y)
+grid on

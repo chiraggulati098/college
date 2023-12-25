@@ -5,3 +5,4 @@ x = -5:0.1:5;
 y = a * x.^2;   % x.^2 means raising every value in x to the power 2
 
 plot(x, y)
+grid on

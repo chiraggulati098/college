@@ -1,4 +1,4 @@
-%P5_4 using plot function to plot a ellipse
+    %P5_4 using plot function to plot an ellipse
 
 a=1.5;b=1;
 
@@ -7,4 +7,5 @@ x = a * cos(theta);
 y = b * sin(theta);
 
 plot(x,y)
+grid on
 axis equal  % make axis equal 

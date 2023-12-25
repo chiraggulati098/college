@@ -7,3 +7,4 @@ y_1 = sqrt((b^2)*(1 + x.^2/a^2));   % upper half
 y_2 = -sqrt((b^2)*(1 + x.^2/a^2));  % lower half
 
 plot(x,y_1,'b',x,y_2,'b');  % 'b' is for colour blue, can also give RGB values in an array [r,g,b]
+grid on
